@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		18B30F9D2C57532D0064C900 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B30F9C2C57532D0064C900 /* main.cpp */; };
+		18B30FA42C5756450064C900 /* textos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B30FA32C5756450064C900 /* textos.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		18B30F992C57532D0064C900 /* learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = learning; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B30F9C2C57532D0064C900 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		18B30FA32C5756450064C900 /* textos.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = textos.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				18B30F9C2C57532D0064C900 /* main.cpp */,
+				18B30FA32C5756450064C900 /* textos.cpp */,
 			);
 			path = learning;
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B30FA42C5756450064C900 /* textos.cpp in Sources */,
 				18B30F9D2C57532D0064C900 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
