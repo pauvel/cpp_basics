@@ -8,7 +8,7 @@
 #include <iostream>
 #include <cmath>
 
-int main(){
+int main3(){
     
     std::cout << 8+8 << std::endl;
     std::cout << 8-8 << std::endl;
