@@ -7,7 +7,7 @@
 
 #include <iostream>
 
-int main(){
+int main4(){
     
 //    int edad[] = {15,23,21,25};
 //    edad[4] = 100;
