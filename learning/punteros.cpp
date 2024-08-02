@@ -7,7 +7,7 @@
 
 #include <iostream>
 
-int main5(){
+int main(){
     
     int numero = 0;
     int *pNumero = &numero;
