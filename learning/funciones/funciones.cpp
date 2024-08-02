@@ -9,7 +9,7 @@
 
 void saludo(std::string x, int y);
 
-int main(){
+int main8(){
     std::string nombre = "";
     int edad = 0;
     std::cout << "Ingresa tu nombre: ";
