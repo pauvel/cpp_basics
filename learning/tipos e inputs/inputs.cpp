@@ -8,7 +8,7 @@
 #include <iostream>
 
 
-int main(){
+int main6(){
     
     std::string nombre = "";
     int edad = 0;
