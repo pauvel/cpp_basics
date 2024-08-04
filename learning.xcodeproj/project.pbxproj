@@ -10,6 +10,7 @@
 		18A723CD2C5C73DC00A8AF7A /* inputs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A723CC2C5C73DC00A8AF7A /* inputs.cpp */; };
 		18A723D12C5C76E100A8AF7A /* funciones.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A723D02C5C76E100A8AF7A /* funciones.cpp */; };
 		18A723D32C5C848E00A8AF7A /* return.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A723D22C5C848E00A8AF7A /* return.cpp */; };
+		18A723D62C5CA0FD00A8AF7A /* ifelse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A723D52C5CA0FD00A8AF7A /* ifelse.cpp */; };
 		18B30F9D2C57532D0064C900 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B30F9C2C57532D0064C900 /* main.cpp */; };
 		18B30FA42C5756450064C900 /* textos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B30FA32C5756450064C900 /* textos.cpp */; };
 		18B30FA62C5840550064C900 /* numeros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B30FA52C5840550064C900 /* numeros.cpp */; };
@@ -33,6 +34,7 @@
 		18A723CC2C5C73DC00A8AF7A /* inputs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inputs.cpp; sourceTree = "<group>"; };
 		18A723D02C5C76E100A8AF7A /* funciones.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = funciones.cpp; sourceTree = "<group>"; };
 		18A723D22C5C848E00A8AF7A /* return.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = return.cpp; sourceTree = "<group>"; };
+		18A723D52C5CA0FD00A8AF7A /* ifelse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ifelse.cpp; sourceTree = "<group>"; };
 		18B30F992C57532D0064C900 /* learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = learning; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B30F9C2C57532D0064C900 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		18B30FA32C5756450064C900 /* textos.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = textos.cpp; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 			path = funciones;
 			sourceTree = "<group>";
 		};
+		18A723D42C5CA0E800A8AF7A /* condicionales */ = {
+			isa = PBXGroup;
+			children = (
+				18A723D52C5CA0FD00A8AF7A /* ifelse.cpp */,
+			);
+			path = condicionales;
+			sourceTree = "<group>";
+		};
 		18B30F902C57532D0064C900 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +103,7 @@
 		18B30F9B2C57532D0064C900 /* learning */ = {
 			isa = PBXGroup;
 			children = (
+				18A723D42C5CA0E800A8AF7A /* condicionales */,
 				18A723CF2C5C769D00A8AF7A /* funciones */,
 				18A723CE2C5C763700A8AF7A /* tipos e inputs */,
 			);
@@ -161,6 +172,7 @@
 				18A723D12C5C76E100A8AF7A /* funciones.cpp in Sources */,
 				18A723D32C5C848E00A8AF7A /* return.cpp in Sources */,
 				18B30FA82C586FCD0064C900 /* arrays.cpp in Sources */,
+				18A723D62C5CA0FD00A8AF7A /* ifelse.cpp in Sources */,
 				18B30FA62C5840550064C900 /* numeros.cpp in Sources */,
 				18A723CD2C5C73DC00A8AF7A /* inputs.cpp in Sources */,
 				18B30F9D2C57532D0064C900 /* main.cpp in Sources */,

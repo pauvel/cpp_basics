@@ -14,7 +14,7 @@ double media(double num1, double num2){
 }
 
 
-int main(){
+int main99(){
     double rst = media(9.3, 5.9);
     std::cout << media(5.2, 7.2) << std::endl;
     
