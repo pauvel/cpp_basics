@@ -7,7 +7,7 @@
 
 #include <iostream>
 
-int main(){
+int mainx12(){
     
 //    int i = 0;
 //    

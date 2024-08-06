@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		188FC8E72C604BDF00450CF1 /* while.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 188FC8E62C604BDF00450CF1 /* while.cpp */; };
+		188FC8E92C608DF700450CF1 /* Classes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 188FC8E82C608DF700450CF1 /* Classes.cpp */; };
+		188FC8EC2C61A5CC00450CF1 /* inheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 188FC8EB2C61A5CC00450CF1 /* inheritance.cpp */; };
 		18A723CD2C5C73DC00A8AF7A /* inputs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A723CC2C5C73DC00A8AF7A /* inputs.cpp */; };
 		18A723D12C5C76E100A8AF7A /* funciones.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A723D02C5C76E100A8AF7A /* funciones.cpp */; };
 		18A723D32C5C848E00A8AF7A /* return.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A723D22C5C848E00A8AF7A /* return.cpp */; };
@@ -33,6 +35,8 @@
 
 /* Begin PBXFileReference section */
 		188FC8E62C604BDF00450CF1 /* while.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = while.cpp; sourceTree = "<group>"; };
+		188FC8E82C608DF700450CF1 /* Classes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Classes.cpp; sourceTree = "<group>"; };
+		188FC8EB2C61A5CC00450CF1 /* inheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inheritance.cpp; sourceTree = "<group>"; };
 		18A723CC2C5C73DC00A8AF7A /* inputs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inputs.cpp; sourceTree = "<group>"; };
 		18A723D02C5C76E100A8AF7A /* funciones.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = funciones.cpp; sourceTree = "<group>"; };
 		18A723D22C5C848E00A8AF7A /* return.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = return.cpp; sourceTree = "<group>"; };
@@ -62,6 +66,15 @@
 				188FC8E62C604BDF00450CF1 /* while.cpp */,
 			);
 			path = bucles;
+			sourceTree = "<group>";
+		};
+		188FC8EA2C61A5B200450CF1 /* poo */ = {
+			isa = PBXGroup;
+			children = (
+				188FC8E82C608DF700450CF1 /* Classes.cpp */,
+				188FC8EB2C61A5CC00450CF1 /* inheritance.cpp */,
+			);
+			path = poo;
 			sourceTree = "<group>";
 		};
 		18A723CE2C5C763700A8AF7A /* tipos e inputs */ = {
@@ -113,6 +126,7 @@
 		18B30F9B2C57532D0064C900 /* learning */ = {
 			isa = PBXGroup;
 			children = (
+				188FC8EA2C61A5B200450CF1 /* poo */,
 				188FC8E52C604BB200450CF1 /* bucles */,
 				18A723D42C5CA0E800A8AF7A /* condicionales */,
 				18A723CF2C5C769D00A8AF7A /* funciones */,
@@ -184,6 +198,8 @@
 				188FC8E72C604BDF00450CF1 /* while.cpp in Sources */,
 				18A723D32C5C848E00A8AF7A /* return.cpp in Sources */,
 				18B30FA82C586FCD0064C900 /* arrays.cpp in Sources */,
+				188FC8EC2C61A5CC00450CF1 /* inheritance.cpp in Sources */,
+				188FC8E92C608DF700450CF1 /* Classes.cpp in Sources */,
 				18A723D62C5CA0FD00A8AF7A /* ifelse.cpp in Sources */,
 				18B30FA62C5840550064C900 /* numeros.cpp in Sources */,
 				18A723CD2C5C73DC00A8AF7A /* inputs.cpp in Sources */,
